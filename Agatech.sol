@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.18;
 
 // Basic interface for a BEP20 token on the Binance Smart Chain (BSC).
 interface IBEP20 {
