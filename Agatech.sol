@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.10;
 
 // Basic interface for a BEP20 token on the Binance Smart Chain (BSC).
 interface IBEP20 {
@@ -59,7 +59,7 @@ contract Agatech is IBEP20, ReentrancyGuard {
     string public constant name = "Agatech";
     string public constant symbol = "AGATA";
     uint8 public constant decimals = 18;
-    uint256 private _totalSupply = 10_000_000 * (10 ** uint256(decimals));
+    uint256 private _totalSupply = 10000000 * (10 ** uint256(decimals));
     mapping(address => uint256) private _balances;
     mapping(address => mapping(address => uint256)) private _allowances;
     address public AgatechMultisig;
@@ -70,6 +70,8 @@ contract Agatech is IBEP20, ReentrancyGuard {
 
     // The main multisig wallet address for Agatech.
     AgatechMultisig = 0xB21bB842f61A50dB973408becd78E597EfC4c910;
+    // Address of the Deployer
+    address deployerWallet = 0x6672134E8838468A10d10a1E4108a0F74D3a495E;
     // Address for the team's vesting wallet.
     address teamVestingWallet = 0xB633cc81E237ca386c1Ca192eFcdB00AB1AE75BB;
     // Address for the development fund wallet.
@@ -86,6 +88,7 @@ contract Agatech is IBEP20, ReentrancyGuard {
     // Safety checks to ensure that none of the provided addresses are the zero address.
     // Using the zero address could lead to irrecoverable tokens.
     require(AgatechMultisig != address(0), "AgatechMultisig: Zero address is not allowed");
+    require(deployerWallet != address(0), "deployerWallet: Zero address is not allowed");
     require(teamVestingWallet != address(0), "TeamVestingWallet: Zero address is not allowed");
     require(developmentFundWallet != address(0), "DevelopmentFundWallet: Zero address is not allowed");
     require(platformsFeaturesWallet != address(0), "PlatformsFeaturesWallet: Zero address is not allowed");
@@ -96,7 +99,7 @@ contract Agatech is IBEP20, ReentrancyGuard {
     // Token distribution according to predefined tokenomics. 
     // The token distribution percentages are multiplied and divided accordingly 
     // to ensure the right amount of tokens are sent to each address.
-    _balances[msg.sender] = _totalSupply.mul(5).div(100); // 5% of the total supply goes to the deployer's address for liquidity purposes.
+    _balances[deployerWallet] = _totalSupply.mul(5).div(100); // 5% of the total supply goes to the deployer's address for liquidity purposes.
     _balances[AgatechMultisig] = _totalSupply.mul(40).div(100); // 40% for the AgatechMultisig.
     _balances[teamVestingWallet] = _totalSupply.mul(10).div(100); // 10% for team vesting.
     _balances[developmentFundWallet] = _totalSupply.mul(10).div(100); // 10% for development fund.
@@ -108,7 +111,7 @@ contract Agatech is IBEP20, ReentrancyGuard {
     // Emitting transfer events for each distribution for transparency and ledger tracking.
     // Each Transfer event indicates that a certain amount of tokens 
     // were minted and assigned to the respective address.
-    emit Transfer(address(0), msg.sender, _balances[msg.sender]); // Transfer event for the deployer's address.
+    emit Transfer(address(0), deployerWallet, _balances[deployerWallet]); // Transfer event for the deployer's address.
     emit Transfer(address(0), AgatechMultisig, _balances[AgatechMultisig]); // For AgatechMultisig.
     emit Transfer(address(0), teamVestingWallet, _balances[teamVestingWallet]); // For team vesting.
     emit Transfer(address(0), developmentFundWallet, _balances[developmentFundWallet]); // For development fund.
