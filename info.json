@@ -7,43 +7,19 @@
   "coinKey": "AGATA",
   "type": "BEP20",
   "unified_cryptoasset_id": "28592",
+  "token_API_url": "https://li.quest/v1/token?chain=BSC&token=AGATA",
   "description": "Agata Token transcends the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. It is designed for diverse utility, serving as the key currency for governance, staking, and accessing services within the Agatech network.",
   "links": [
         {
-            "name": "github",
-            "url": "https://github.com/Agatechsystems"
-        },
-        {
-            "name": "coinmarketcap",
-            "url": "https://coinmarketcap.com/currencies/agatech/"
-        },
-        {
-            "name": "Explorer",
-            "url": "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
-        },
-      {
-            "name": "Holders",
-            "url": " https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029#balances"
-        },
-         {
-            "name": "token repository",
-            "url": "https://github.com/Agatechsystems/Agata"
-        },
-         {
-            "name": "Pancakeswap",
-            "url": "https://pancakeswap.finance/swap?outputCurrency=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
-        },
-        {
-            "name": "twitter",
-            "url": "https://twitter.com/agatechsystems"
-        },
-        {
-            "name": "Website",
-            "url": "https://agatech.io"
-        },
-        {
-            "name": "telegram",
-            "url": "https://t.me/agatechsystems"
+          "Website": "https://agatech.io"
+          "Telegram": "https://t.me/agatechsystems"
+          "Github": "https://github.com/Agatechsystems",
+          "CoinMarketCap": "https://coinmarketcap.com/currencies/agatech/"
+          "BlockExplorer": "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
+          "Holders list": " https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029#balances"
+          "Token Repository": "https://github.com/Agatechsystems/Agata"
+          "Pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
+          "Twitter": "https://twitter.com/agatechsystems"    
         } 
     ]
 }
