@@ -21,6 +21,10 @@
             "name": "Explorer",
             "url": "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
         },
+      {
+            "name": "Holders",
+            "url": " https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029#balances"
+        },
          {
             "name": "token repository",
             "url": "https://github.com/Agatechsystems/Agata"
