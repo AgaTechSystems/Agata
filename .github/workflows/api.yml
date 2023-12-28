@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build-and-update-info:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    # Installing jq to process JSON files
+    - name: Install jq
+      run: sudo apt-get install jq
+
+    # Substituting the CMC API key in the info.json
+    - name: Insert CMC API Key into info.json
+      env:
+        CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
+      run: |
+        jq '(.data["28592"].cmc_api_endpoint, 
+            .data["28592"].other_fields_if_necessary) |= sub("YOUR_CMC_API_KEY"; env.CMC_API_KEY)' info.json > info.tmp.json && mv info.tmp.json info.json
+
+    # Substituting the BscScan API key in the info.json, only if the CMC key is missing or as an additional data point
+    - name: Insert BscScan API Key into info.json
+      env:
+        BSCSCAN_API_KEY: ${{ secrets.BSCSCAN_API_KEY }}
+      run: |
+        jq '(.api_endpoints.token_holder_list, 
+            .api_endpoints.contract_creation, 
+            .api_endpoints.source_code) |= sub("YOUR_BSCSCAN_API_KEY"; env.BSCSCAN_API_KEY)' info.json > info.tmp.json && mv info.tmp.json info.json
+
+    # Proceed with the build and deployment with the updated info.json
+    # - name: Build and deploy
+    #   run: |
+    #     Deploy your application with the updated info.json
