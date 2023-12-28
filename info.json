@@ -16,19 +16,6 @@
       "self_reported_max_supply": "10000000",
       "self_reported_tags": ["Token", "BNB Chain", "AI & Big Data", "Services", "Web3"],
       "infinite_supply": false,
-  "agata_price": {   
-      "price_usd":  "https://coinmarketcap.com/converter/agata/usd",
-      "price_wbnb": "https://coinmarketcap.com/converter/agata/wbnb",
-      "price_bnb":  "https://coinmarketcap.com/converter/agata/bnb",
-      "price_eth":  "https://coinmarketcap.com/converter/agata/eth",
-      "price_btc":  "https://coinmarketcap.com/converter/agata/btc",
-      "price_gbp":  "https://coinmarketcap.com/converter/agata/gbp",
-      "price_eur":  "https://coinmarketcap.com/converter/agata/eur",
-      "price_rub":  "https://coinmarketcap.com/converter/agata/rub",
-      "price_try":  "https://coinmarketcap.com/converter/agata/try",
-      "price_xrp":  "https://coinmarketcap.com/converter/agata/xrp",
-      "price_ltc":  "https://coinmarketcap.com/converter/agata/ltc"
-    },
   "urls": {
     "website": [
       "https://agatech.io"
@@ -77,6 +64,19 @@
     ]
    }
   },
+      "agata_price": {   
+      "price_usd":  "https://coinmarketcap.com/converter/agata/usd",
+      "price_wbnb": "https://coinmarketcap.com/converter/agata/wbnb",
+      "price_bnb":  "https://coinmarketcap.com/converter/agata/bnb",
+      "price_eth":  "https://coinmarketcap.com/converter/agata/eth",
+      "price_btc":  "https://coinmarketcap.com/converter/agata/btc",
+      "price_gbp":  "https://coinmarketcap.com/converter/agata/gbp",
+      "price_eur":  "https://coinmarketcap.com/converter/agata/eur",
+      "price_rub":  "https://coinmarketcap.com/converter/agata/rub",
+      "price_try":  "https://coinmarketcap.com/converter/agata/try",
+      "price_xrp":  "https://coinmarketcap.com/converter/agata/xrp",
+      "price_ltc":  "https://coinmarketcap.com/converter/agata/ltc"
+    },
   "api_endpoints": {
    "cmc_pro_api":[
     "curl -H X-CMC_PRO_API_KEY: CMC_API_KEY, -H Accept: application/json, -d start=1&limit=5000&convert=USD, -G https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
