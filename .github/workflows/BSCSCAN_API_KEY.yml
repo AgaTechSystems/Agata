@@ -11,6 +11,3 @@ jobs:
         env:
           BSCSCAN_API_KEY: ${{ secrets.BSCSCAN_API_KEY }}
         run: |
-          jq '.api_endpoints.token_holder_list |= sub("YOUR_API_KEY"; env.BSCSCAN_API_KEY) |
-                .api_endpoints.contract_creation |= sub("YOUR_API_KEY"; env.BSCSCAN_API_KEY) |
-                .api_endpoints.source_code |= sub("YOUR_API_KEY"; env.BSCSCAN_API_KEY)' info.json > temp.json && mv temp.json info.json
