@@ -1,0 +1,2 @@
+env:
+  BSCSCAN_API_KEY: ${{ secrets.BSCSCAN_API_KEY }}
