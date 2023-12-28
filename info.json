@@ -27,9 +27,9 @@
     "Pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
   },
   "api_endpoints": {
-    "token_holder_list": "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=YOUR_API_KEY",
-    "contract_creation": "https://api.bscscan.com/api?module=contract&action=getcontractcreation&contractaddresses=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=YOUR_API_KEY",
-    "source_code": "https://api.bscscan.com/api?module=contract&action=getsourcecode&address=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=YOUR_API_KEY",
+    "token_holder_list": "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY",
+    "contract_creation": "https://api.bscscan.com/api?module=contract&action=getcontractcreation&contractaddresses=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY",
+    "source_code": "https://api.bscscan.com/api?module=contract&action=getsourcecode&address=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY",
     "total_supply": "https://chainz.cryptoids.info/agata/api.dws?q=totalcoins",
     "circulating_supply": "https://chainz.cryptoids.info/agata/api.dws?q=circulating"
   }

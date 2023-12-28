@@ -1,14 +1,9 @@
-name: Build and Deploy
-
-on: [push, pull_request]
-
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v2
-  
+      - uses: actions/checkout@v2
+
       - name: Install jq
         run: sudo apt-get install jq
 
@@ -16,18 +11,6 @@ jobs:
         env:
           BSCSCAN_API_KEY: ${{ secrets.BSCSCAN_API_KEY }}
         run: |
-          jq '.api_endpoints.token_holder_list |= sub("YOUR_API_KEY"; env.BSCSCAN_API_KEY) | 
-               .api_endpoints.contract_creation |= sub("YOUR_API_KEY"; env.BSCSCAN_API_KEY) | 
-               .api_endpoints.source_code |= sub("YOUR_API_KEY"; env.BSCSCAN_API_KEY)' info.json > temp.json && mv temp.json info.json
+          jq '.api_endpoints.token_holder_list |= sub("YOUR_API_KEY"; env.BSCSCAN_API_KEY)' info.json > temp.json && mv temp.json info.json
 
-      # Add additional steps for building, testing, and deployment below
-      # as required for your application's deployment process.
-
-      - name: Build
-        run: build-command # Replace with your actual build command
-        
-      - name: Test
-        run: test-command # Replace with your actual test command
-
-      - name: Deploy
-        run: deploy-command # Replace with your actual deployment command
+  
