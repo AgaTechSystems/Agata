@@ -17,7 +17,7 @@
       "self_reported_max_supply": "10000000",
       "self_reported_total_supply": "10000000",
       "self_reported_tags": ["Token", "BNB Chain", "AI & Big Data", "Services", "Web3"],
-      "infinite_supply": false
+      "infinite_supply": false,
   
   "urls": {
     "website": [
@@ -31,9 +31,6 @@
     ],
     "reddit": [
       "https://reddit.com/r/Agatech_Agata"
-    ],
-    "chat": [
-      "https://t.me/AgatechSystems"
     ],
     "explorer": [
       "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
@@ -65,8 +62,8 @@
     "pancakeswap": [
       "https://pancakeswap.finance/swap?outputCurrency=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
     ]
-  }
-},
+   }
+  },
   "api_endpoints": {
     "token_holder_list": [
       "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
@@ -83,4 +80,6 @@
     "circulating_supply": [
       "https://chainz.cryptoids.info/agata/api.dws?q=circulating"
       ]
+    }
+  }
 }
