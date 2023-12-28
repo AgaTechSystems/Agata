@@ -77,8 +77,9 @@
    }
   },
   "api_endpoints": {
-    curl -H "X-CMC_PRO_API_KEY: CMC_API_KEY" -H "Accept: application/json" -d "start=1&limit=5000&convert=USD" -G https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest
-
+   "cmc_pro_api":[
+    curl -H "X-CMC_PRO_API_KEY: CMC_API_KEY", -H "Accept: application/json", -d "start=1&limit=5000&convert=USD", -G ["https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"]
+      ],
     "token_holder_list": [
       "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
       ],
