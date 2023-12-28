@@ -1,101 +1,64 @@
 {
+  "status": {
+    "timestamp": "2023-12-28T11:10:42.297Z",
+    "error_code": 0,
+    "error_message": null,
+    "elapsed": 21,
+    "credit_count": 1,
+    "notice": null
+  },
   "data": {
     "28592": {
       "id": 28592,
       "name": "Agatech",
       "symbol": "AGATA",
-      "address": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
-      "chainId": 56,
-      "slug": "agatech",
+      "category": "token",
+      "platform": {
+        "id": "1839",
+        "name": "BNB",
+        "slug": "bnb",
+        "symbol": "BNB",
+        "token_address": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
+      },
+      "description": "Agatech (AGATA) is a cryptocurrency launched in 2023 and operates on the BNB Smart Chain (BEP20) platform. Agatech has a current supply of 9,435,000 with 2,459,750 in circulation. The last known price of Agatech is 0.12100206 USD and is up 44.45% over the last 24 hours. It is currently trading on 6 active market(s) with $44,748.36 traded over the last 24 hours.",
+      "urls": {
+        "website": ["https://agatech.io/"],
+        "twitter": ["https://twitter.com/agatechsystems"],
+        "message_board": ["https://agatech.medium.com/"],
+        "chat": ["https://t.me/agatechsystems"],
+        "facebook": ["https://www.facebook.com/agatechsystems"],
+        "explorer": ["https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"],
+        "reddit": ["https://reddit.com/r/Agatech_Agata/"],
+        "technical_doc": ["https://github.com/AgaTechSystems/whitepaper/blob/main/Agatech%20whitepaper.pdf"],
+        "source_code": ["https://github.com/AgaTechSystems/Agata"]
+      },
       "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png",
-      "decimals": 18,
-      "type": "BEP20",
-      "platform": "BNB SMART CHAIN",
-      "category": "BEP20",
-      "description": "Agata Token transcends the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. Ingeniously designed for diverse utility, it stands as the key currency for governance, staking, and accessing a variety of services within the Agatech network. Holding Agata Tokens empowers users to shape the ecosystem's evolution and strategic direction via a democratic voting process. Staking these tokens opens doors to numerous advantages, including reward accrual, transaction fee reductions, and privileged access to elite features. Agata Token is, in essence, the vital energy source for Agatech, integral to the seamless operation and comprehensive functionality of the entire ecosystem.",
-      "self_reported_max_supply": "10000000",
-      "self_reported_tags": ["Token", "BNB Chain", "AI & Big Data", "Services", "Web3"],
-      "infinite_supply": false,
-  "urls": {
-    "website": [
-      "https://agatech.io"
-    ],
-    "pro_cmc_api": [
-      "https://pro-api.coinmarketcap.com/v1/cryptocurrency/info?CMC_PRO_API_KEY=UNIFIED-CRYPTOASSET-INDEX&id=28592"
-    ],
-    "technical_doc": [
-      "https://github.com/AgaTechSystems/whitepaper/blob/main/Agatech%20whitepaper.pdf"
-    ],
-    "twitter": [
-      "https://twitter.com/agatechsystems"
-    ],
-    "reddit": [
-      "https://reddit.com/r/Agatech_Agata"
-    ],
-    "explorer": [
-      "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
-    ],
-    "source_code": [
-      "https://github.com/AgaTechSystems/Agata"
-    ],
-    "announcement": [],
-    "message_board": [],
-    "chat": [],
-    "facebook": [
-      "https://facebook.com/agatechsystems"
-    ],
-    "discord": [
-      "https://discord.com/invite/deT9GBqunR"
-    ],
-    "telegram": [
-      "https://t.me/AgatechSystems"
-    ],
-    "github": [
-      "https://github.com/AgaTechSystems"
-    ],
-    "coinmarketcap": [
-      "https://coinmarketcap.com/currencies/agatech/"
-    ],
-    "holders_list": [
-      "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029#balances"
-    ],
-    "pancakeswap": [
-      "https://pancakeswap.finance/swap?outputCurrency=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
-    ]
-   }
-  },
-      "agata_price": {   
-      "price_usd":  "https://coinmarketcap.com/converter/agata/usd",
-      "price_wbnb": "https://coinmarketcap.com/converter/agata/wbnb",
-      "price_bnb":  "https://coinmarketcap.com/converter/agata/bnb",
-      "price_eth":  "https://coinmarketcap.com/converter/agata/eth",
-      "price_btc":  "https://coinmarketcap.com/converter/agata/btc",
-      "price_gbp":  "https://coinmarketcap.com/converter/agata/gbp",
-      "price_eur":  "https://coinmarketcap.com/converter/agata/eur",
-      "price_rub":  "https://coinmarketcap.com/converter/agata/rub",
-      "price_try":  "https://coinmarketcap.com/converter/agata/try",
-      "price_xrp":  "https://coinmarketcap.com/converter/agata/xrp",
-      "price_ltc":  "https://coinmarketcap.com/converter/agata/ltc"
-    },
-  "api_endpoints": {
-   "cmc_pro_api":[
-    "curl -H X-CMC_PRO_API_KEY: CMC_API_KEY, -H Accept: application/json, -d start=1&limit=5000&convert=USD, -G https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
+      "subreddit": "Agatech_Agata/",
+      "tags": ["binance-smart-chain"],
+      "tag-names": ["BNB Smart Chain"],
+      "tag-groups": ["PLATFORM"],
+      "date_added": "2023-12-05T06:06:55.000Z",
+      "twitter_username": "agatechsystems",
+      "is_hidden": 0,
+      "date_launched": "2023-10-31T00:00:00.000Z",
+      "contract_address": [
+        {
+          "contract_address": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
+          "platform": {
+            "name": "BNB Smart Chain (BEP20)",
+            "coin": {
+              "id": "1839",
+              "name": "BNB",
+              "symbol": "BNB",
+              "slug": "bnb"
+            }
+          }
+        }
       ],
-    "token_holder_list": [
-      "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
-      ],
-    "contract_creation": [
-      "https://api.bscscan.com/api?module=contract&action=getcontractcreation&contractaddresses=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
-      ],
-    "source_code": [
-      "https://api.bscscan.com/api?module=contract&action=getsourcecode&address=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
-      ],
-    "total_supply": [
-      "https://chainz.cryptoids.info/agata/api.dws?q=totalcoins"
-      ],
-    "circulating_supply": [
-      "https://chainz.cryptoids.info/agata/api.dws?q=circulating"
-      ]
+      "self_reported_circulating_supply": 2459750,
+      "self_reported_tags": ["Services", "AI & Big Data", "BNB Smart Chain", "Web3", "Token", "BNB Chain"],
+      "self_reported_market_cap": 298311.77385704586,
+      "infinite_supply": false
     }
   }
 }
