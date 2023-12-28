@@ -7,7 +7,14 @@
   "coinKey": "AGATA",
   "type": "BEP20",
   "unified_cryptoasset_id": "28592",
-  "token_API_url": "https://li.quest/v1/token?chain=BSC&token=AGATA",
+  "tokeninfo": "https://api.bscscan.com/api?module=token&action=tokeninfo&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=ECAGEC53DZEBMQF76XZMW93QYADXHKA5YP",
+  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png"
+  "token_holder_list": "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=ECAGEC53DZEBMQF76XZMW93QYADXHKA5YP"
+  "contract_creation": "https://api.bscscan.com/api?module=contract&action=getcontractcreation&contractaddresses=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=ECAGEC53DZEBMQF76XZMW93QYADXHKA5YP"
+  "source_code": "https://api.bscscan.com/api?module=contract&action=getsourcecode&address=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=ECAGEC53DZEBMQF76XZMW93QYADXHKA5YP"
+  "max_supply": "https://api.bscscan.com/api?module=stats&action=tokensupply&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=ECAGEC53DZEBMQF76XZMW93QYADXHKA5YP"
+  "total_supply": "https://chainz.cryptoids.info/agata/api.dws?q=totalcoins"
+  "circulating_supply": "https://chainz.cryptoids.info/agata/api.dws?q=circulating"
   "description": "Agata Token transcends the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. It is designed for diverse utility, serving as the key currency for governance, staking, and accessing services within the Agatech network.",
   "links": [
         {
