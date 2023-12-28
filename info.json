@@ -1,35 +1,88 @@
 {
-  "address": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
-  "chainId": 56,
-  "symbol": "AGATA",
-  "decimals": 18,
-  "name": "Agatech",
-  "type": "BEP20",
-  "unified_cryptoasset_id": "28592",
-  "maxSupply": "10000000.00000000",
-  "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png",
-  "description": "Agata Token transcends the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. It is designed for diverse utility, serving as the key currency for governance, staking, and accessing services within the Agatech network.",
-  "links": {
-    "Website": "https://agatech.io",
-    "Telegram": "https://t.me/AgatechSystems",
-    "Github": "https://github.com/AgaTechSystems",
-    "CoinMarketCap": "https://coinmarketcap.com/currencies/agatech/",
-    "BlockExplorer": "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
-    "Holders list": "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029#balances",
-    "Whitepaper": "https://github.com/AgaTechSystems/whitepaper/blob/main/Agatech%20whitepaper.pdf",
-    "Email": "dearser@agatech.io",
-    "Blog": "https://agatech.medium.com/",
-    "Reddit": "https://www.reddit.com/r/Agatech_Agata/",
-    "Facebook": "https://facebook.com/agatechsystems",
-    "Twitter": "https://twitter.com/AgatechSystems",
-    "Discord": "https://discord.com/invite/deT9GBqunR",
-    "Pancakeswap": "https://pancakeswap.finance/swap?outputCurrency=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
+  "data": {
+    "28592": {
+      "id": 28592,
+      "name": "Agatech",
+      "symbol": "AGATA",
+      "address": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
+      "chainId": 56,
+      "slug": "agatech",
+      "logo": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png",
+      "decimals": 18,
+      "type": "BEP20",
+      "platform": "BNB SMART CHAIN",
+      "category": "BEP20",
+      "description": "Agata Token transcends the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. Ingeniously designed for diverse utility, it stands as the key currency for governance, staking, and accessing a variety of services within the Agatech network. Holding Agata Tokens empowers users to shape the ecosystem's evolution and strategic direction via a democratic voting process. Staking these tokens opens doors to numerous advantages, including reward accrual, transaction fee reductions, and privileged access to elite features. Agata Token is, in essence, the vital energy source for Agatech, integral to the seamless operation and comprehensive functionality of the entire ecosystem.",
+      "self_reported_circulating_supply": "10000000",
+      "self_reported_max_supply": "10000000",
+      "self_reported_total_supply": "10000000",
+      "self_reported_tags": ["Token", "BNB Chain", "AI & Big Data", "Services", "Web3"],
+      "infinite_supply": false
+    }
   },
+  "urls": {
+    "website": [
+      "https://agatech.io"
+    ],
+    "technical_doc": [
+      "https://github.com/AgaTechSystems/whitepaper/blob/main/Agatech%20whitepaper.pdf"
+    ],
+    "twitter": [
+      "https://twitter.com/agatechsystems"
+    ],
+    "reddit": [
+      "https://reddit.com/r/Agatech_Agata"
+    ],
+    "chat": [
+      "https://t.me/AgatechSystems"
+    ],
+    "explorer": [
+      "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
+    ],
+    "source_code": [
+      "https://github.com/AgaTechSystems/Agata"
+    ],
+    "announcement": [],
+    "message_board": [],
+    "chat": [],
+    "facebook": [
+      "https://facebook.com/agatechsystems"
+    ],
+    "discord": [
+      "https://discord.com/invite/deT9GBqunR"
+    ],
+    "telegram": [
+      "https://t.me/AgatechSystems"
+    ],
+    "github": [
+      "https://github.com/AgaTechSystems"
+    ],
+    "coinmarketcap": [
+      "https://coinmarketcap.com/currencies/agatech/"
+    ],
+    "holders_list": [
+      "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029#balances"
+    ],
+    "pancakeswap": [
+      "https://pancakeswap.finance/swap?outputCurrency=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029"
+    ]
+  }
+},
   "api_endpoints": {
-    "token_holder_list": "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY",
-    "contract_creation": "https://api.bscscan.com/api?module=contract&action=getcontractcreation&contractaddresses=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY",
-    "source_code": "https://api.bscscan.com/api?module=contract&action=getsourcecode&address=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY",
-    "total_supply": "https://chainz.cryptoids.info/agata/api.dws?q=totalcoins",
-    "circulating_supply": "https://chainz.cryptoids.info/agata/api.dws?q=circulating"
+    "token_holder_list": [
+      "https://api.bscscan.com/api?module=token&action=tokenholderlist&contractaddress=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
+      ],
+    "contract_creation": [
+      "https://api.bscscan.com/api?module=contract&action=getcontractcreation&contractaddresses=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
+      ],
+    "source_code": [
+      "https://api.bscscan.com/api?module=contract&action=getsourcecode&address=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029&apikey=BSCSCAN_API_KEY"
+      ],
+    "total_supply": [
+      "https://chainz.cryptoids.info/agata/api.dws?q=totalcoins"
+      ],
+    "circulating_supply": [
+      "https://chainz.cryptoids.info/agata/api.dws?q=circulating"
+      ]
   }
 }
