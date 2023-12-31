@@ -3,11 +3,15 @@ Token for Agatech
 Agatech (AGATA)
 Unified Cryptoasset ID (UCID): 28592
 Token Contract Address: 0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029
+Binance Smart Chain
+BSC
+BNB CHain
 BNB Smart Chain
 BEP20
 
 Explorers:
 https://blockchain.coinmarketcap.com/token/bsc/0xb427e47e8fdd678278d2a91eeac014ffcddaf029
+https://pancakeswap.finance/info/tokens/0xb427e47e8fdd678278d2a91eeac014ffcddaf029
 https://bscscan.com/token/0xb427e47e8fdd678278d2a91eeac014ffcddaf029?a=0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029
 https://bscscan.com/address/0xb427e47e8fdd678278d2a91eeac014ffcddaf029
 https://bscscan.com/address/0xc60b84296048f90a17731322c719e7b1a3e77f18
