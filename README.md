@@ -10,9 +10,13 @@
 - **Contract Address**: 0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029
 - **Decimals**: 18
 - **Chain ID**: 56
-- **Max Supply**: 10,000,000 AGATA
-- **Total Supply**: 9,435,000 AGATA
-- **Circulating Supply**: 2,459,750 AGATA
+- **Max Supply**: 10000000.000000000000000000 AGATA
+- https://chainz.cryptoids.info/agata/maxcoins
+- **Total Supply**: 9434999.898989898989898989 AGATA
+- https://chainz.cryptoids.info/agata/totalcoins
+- **Circulating Supply**: 4472787.956262218732828387 AGATA
+- https://chainz.cryptoids.info/agata/circulating
+  
 
 ## Overview
 Agatech (AGATA) is a cryptocurrency launched in 2023, operating on the BNB Smart Chain (BEP20) platform. It aims to transcend the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. Ingeniously designed for diverse utility, it stands as the key currency for governance, staking, and accessing a variety of services within the Agatech network. Holding Agata Tokens empowers users to shape the ecosystem's evolution and strategic direction via a democratic voting process. Staking these tokens opens doors to numerous advantages, including reward accrual, transaction fee reductions, and privileged access to elite features. Agata Token is, in essence, the vital energy source for Agatech, integral to the seamless operation and comprehensive functionality of the entire ecosystem..
