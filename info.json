@@ -3,16 +3,19 @@
     "name": "Agatech",
     "symbol": "AGATA",
     "ucid": 28592,
-    "rank": 1878,
-    "type": "BEP-20",
-    "platform": "Binance Smart Chain",
-    "contractAddress": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
+    "tokenAddress": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
     "decimals": 18,
-    "chainId": 56,
     "isActive": true,
     "totalSupply": 9435000,
     "circulatingSupply": 2459750,
     "marketCap": 306579.44,
+    "rank": 1878,
+    "type": "BEP20",
+    "platform": "Binance",
+    "chain": "BNB Smart Chain",
+    "chain_symbol": "BSC",
+    "chainId": 56,
+    "lists": "PancakeCoinMarketCap", "LIFI",
     "firstHistoricalData": "2023-12-05T06:40:00.000Z",
     "lastHistoricalData": "2024-01-02T06:25:00.000Z"
   },
@@ -30,8 +33,8 @@
       "isHidden": false
     },
     "selfReportedMetrics": {
-      "circulatingSupply": 2459750,
-      "marketCap": 306579.4352103908
+      "circulatingSupply": 4473749.08,
+      "marketCap": 379391.084803958361450100
     },
     "supplyInformation": {
       "infiniteSupply": false
