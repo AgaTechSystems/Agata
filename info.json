@@ -1,67 +1,60 @@
 {
-  "token": {
-    "name": "Agatech",
-    "symbol": "AGATA",
-    "ucid": 28592,
-    "tokenAddress": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
-    "decimals": 18,
-    "isActive": true,
-    "totalSupply": 9435000,
-    "circulatingSupply": 2459750,
-    "marketCap": 306579.44,
-    "rank": 1878,
-    "type": "BEP20",
-    "platform": "Binance",
-    "chain": "BNB Smart Chain",
-    "chain_symbol": "BSC",
-    "chainId": 56,
-    "lists": "PancakeCoinMarketCap", "LIFI",
-    "firstHistoricalData": "2023-12-05T06:40:00.000Z",
-    "lastHistoricalData": "2024-01-02T06:25:00.000Z"
-  },
-    "platformDetails": {
-      "id": 1839,
-      "name": "BNB",
-      "symbol": "BNB",
-      "slug": "bnb"
-    },
-    "historicalData": {
-      "dateAdded": "2023-12-05T06:06:55.000Z",
-      "dateLaunched": "2023-10-31T00:00:00.000Z"
-    },
-    "visibility": {
-      "isHidden": false
-    },
-    "selfReportedMetrics": {
-      "circulatingSupply": 4473749.08,
-      "marketCap": 379391.084803958361450100
-    },
-    "supplyInformation": {
-      "infiniteSupply": false
-    },
-  "description": {
-    "short": "Agatech (AGATA) is a cryptocurrency launched in 2023, operating on the BNB Smart Chain (BEP20) platform.",
-    "long": "Agatech has a current supply of 9,435,000 with 2,459,750 in circulation. The last known price of Agatech is 0.12465554 USD, up 39.31% over the last 24 hours. It is currently trading on 6 active markets with $43,774.94 traded over the last 24 hours."
-  },
+  "id": "agatech",
+  "name": "Agatech",
+  "coinId": 28592,
+  "symbol": "AGATA",
+  "decimals": 18,
+  "blockchain": "Binance Smart Chain",
+  "tokenType": "BEP-20",
+  "contractAddress": "0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
+  "chainId": 56,
+  "maxSupply": "10000000.000000000000000000 AGATA",
+  "totalSupply": "9434999.898989898989898989 AGATA",
+  "circulatingSupply": "4472787.956262218732828387 AGATA",
+  "tags": ["Services", "AI & Big Data", "BEP20", "BNB Smart Chain", "Web3", "Token", "BNB Chain"],
+  "logoUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png"
   "links": {
+    "explorer": "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
+    "source": "https://github.com/AgaTechSystems/Agata",
+    "maxCoinsUrl": "https://chainz.cryptoids.info/agata/maxcoins",
+    "totalCoinsUrl": "https://chainz.cryptoids.info/agata/totalcoins",
+    "circulatingUrl": "https://chainz.cryptoids.info/agata/circulating",
+    "sampleTx": "0xc0fbbc22d2b762651fceb2482761e9f9f5db39ad4698f9a4bb6a418e896d0e56",
+    "sampleAccount": "0x97E959a2E05c1C01D6E44dCb836F2afdC82Ad9a3"
     "website": "https://agatech.io",
-    "whitepaper": "https://github.com/AgaTechSystems/whitepaper/blob/main/Agatech%20whitepaper.pdf",
-    "github": "https://github.com/AgaTechSystems/Agata",
+    "documentation": "https://github.com/AgaTechSystems/whitepaper/blob/main/Agatech%20whitepaper.pdf",
+    "github": "https://github.com/AgaTechSystems",
     "twitter": "https://twitter.com/agatechsystems",
     "telegram": "https://t.me/agatechsystems",
     "medium": "https://agatech.medium.com/",
     "facebook": "https://www.facebook.com/agatechsystems",
     "reddit": "https://reddit.com/r/Agatech_Agata"
   },
-  "apis": {
-    "coinMarketCap": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?CMC_PRO_API_KEY=UNIFIED-CRYPTOASSET-INDEX&id=28592",
-    "lifi": "https://li.quest/v1/token?chain=BSC&token=AGATA"
-  },
-  "audits": {
-    "cyberscope": "https://github.com/cyberscope-io/audits/blob/main/agata/audit.pdf",
-    "checkdot": "https://audits.checkdot.io/Agata-Audit-CheckDot.pdf"
-  },
-  "kyc": "https://github.com/cyberscope-io/kyc/blob/main/agata/kyc.png",
-  "tags": ["Services", "AI & Big Data", "BEP20", "BNB Smart Chain", "Web3", "Token", "BNB Chain"],
-  "logoUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png"
+  "additionalDetails": {
+    "visibility": {
+      "isHidden": false
+      }
+    "supplyInformation": {
+      "infiniteSupply": false
+      }
+    "description": {
+      "short": "Agatech (AGATA) is a cryptocurrency launched in 2023, operating on the BNB Smart Chain (BEP20) platform.",
+      "long": "Agata Token transcends the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. Ingeniously designed for diverse utility, it stands as the key currency for governance, staking, and accessing a variety of services within the Agatech network. Holding Agata Tokens empowers users to shape the ecosystem's evolution and strategic direction via a democratic voting process. Staking these tokens opens doors to numerous advantages, including reward accrual, transaction fee reductions, and privileged access to elite features. Agata Token is, in essence, the vital energy source for Agatech, integral to the seamless operation and comprehensive functionality of the entire ecosystem."
+      }
+    "apis": {
+      "coinMarketCap": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?CMC_PRO_API_KEY=UNIFIED-CRYPTOASSET-INDEX&id=28592",
+      "lifi": "https://li.quest/v1/token?chain=BSC&token=AGATA"
+      }
+    "auditsAndKYC": {
+      "cyberscope": "https://github.com/cyberscope-io/audits/blob/main/agata/audit.pdf",
+      "checkdot": "https://audits.checkdot.io/Agata-Audit-CheckDot.pdf"
+      "kyc": "https://github.com/cyberscope-io/kyc/blob/main/agata/kyc.png",
+  }
+    },
+    "blockchainInfo": {
+    "index": 20000714,
+    "symbol": "BNB",
+    "logoUrl": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/smartchain/info/logo.png",
+    "url": "https://www.binance.org/en/smartChain"
+  }
 }
