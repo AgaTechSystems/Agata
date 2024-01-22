@@ -12,7 +12,7 @@
   "totalSupply": "9434999.898989898989898989 AGATA",
   "circulatingSupply": "4472787.956262218732828387 AGATA",
   "tags": ["Services", "AI & Big Data", "BEP20", "BNB Smart Chain", "Web3", "Token", "BNB Chain"],
-  "logoUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png"
+  "logoUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/28592.png",
   "links": {
     "explorer": "https://bscscan.com/token/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029",
     "source": "https://github.com/AgaTechSystems/Agata",
@@ -20,7 +20,7 @@
     "totalCoinsUrl": "https://chainz.cryptoids.info/agata/totalcoins",
     "circulatingUrl": "https://chainz.cryptoids.info/agata/circulating",
     "sampleTx": "0xc0fbbc22d2b762651fceb2482761e9f9f5db39ad4698f9a4bb6a418e896d0e56",
-    "sampleAccount": "0x97E959a2E05c1C01D6E44dCb836F2afdC82Ad9a3"
+    "sampleAccount": "0x97E959a2E05c1C01D6E44dCb836F2afdC82Ad9a3",
     "website": "https://agatech.io",
     "documentation": "https://github.com/AgaTechSystems/whitepaper/blob/main/Agatech%20whitepaper.pdf",
     "github": "https://github.com/AgaTechSystems",
@@ -47,9 +47,9 @@
       }
     "auditsAndKYC": {
       "cyberscope": "https://github.com/cyberscope-io/audits/blob/main/agata/audit.pdf",
-      "checkdot": "https://audits.checkdot.io/Agata-Audit-CheckDot.pdf"
-      "kyc": "https://github.com/cyberscope-io/kyc/blob/main/agata/kyc.png",
-  }
+      "checkdot": "https://audits.checkdot.io/Agata-Audit-CheckDot.pdf",
+      "kyc": "https://github.com/cyberscope-io/kyc/blob/main/agata/kyc.png"
+                    }
     },
     "blockchainInfo": {
     "index": 20000714,
