@@ -59,15 +59,11 @@ One of Agata Token's unique propositions is its ability to integrate seamlessly 
 
 With a well-thought-out tokenomics structure and a clear roadmap, the Agata Token aims for long-term sustainability and growth, rather than quick, short-lived gains.
 
-## Tokenomics
-
-The tokenomics section for your `README.md` file can be structured to clearly outline the distribution and allocation of Agata tokens. Here's how you can present this information:
-
-## Tokenomics
+### Tokenomics
 
 The tokenomics of the Agata Token are meticulously designed to align with the long-term vision of the Agatech ecosystem. The total supply of 10,000,000 tokens is distributed as follows:
 
-### Agatech Multisig Wallet (AgatechMultisig)
+#### Agatech Multisig Wallet (AgatechMultisig)
 
 - **Allocation**: 40% (4,000,000 Tokens)
 - **Purpose**:
@@ -119,9 +115,6 @@ Agatech is currently listed on several platforms including:
 - [DexTools](https://www.dextools.io/app/en/bnb/pair-explorer/0xc60b84296048f90a17731322c719e7b1a3e77f18)
 - [DexView](https://www.dexview.com/bsc/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029)
 - [PancakeSwap V2](https://pancakeswap.finance/info/v2/tokens/0xb427e47e8fDD678278d2A91EEaC014ffcDDaF029)
-- SushiSwap
-- ApeSwap
-- more
 
 ## APIs and Integrations
 
@@ -166,13 +159,7 @@ For developers interested in our project, visit our [GitHub Repository](https://
 
 ## Contact Us
 
-For any inquiries or collaboration opportunities, please contact us via [Email](<Dearser@agatech.io>.
-
-## Disclaimer
-
-Certainly! Below is a sample legal disclaimer tailored for the Agata token and Agatech. Please note that it's advisable to have this disclaimer reviewed by a legal professional, especially if your token operates in multiple jurisdictions or has specific legal considerations.
-
----
+For any inquiries or collaboration opportunities, please contact us via [Email](dearser@agatech.io).
 
 ### Legal Disclaimer
 
