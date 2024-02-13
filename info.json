@@ -33,18 +33,18 @@
   "additionalDetails": {
     "visibility": {
       "isHidden": false
-      }
+      },
     "supplyInformation": {
       "infiniteSupply": false
-      }
+      },
     "description": {
       "short": "Agatech (AGATA) is a cryptocurrency launched in 2023, operating on the BNB Smart Chain (BEP20) platform.",
       "long": "Agata Token transcends the typical role of a cryptocurrency, embodying the foundation of the Agatech ecosystem. Ingeniously designed for diverse utility, it stands as the key currency for governance, staking, and accessing a variety of services within the Agatech network. Holding Agata Tokens empowers users to shape the ecosystem's evolution and strategic direction via a democratic voting process. Staking these tokens opens doors to numerous advantages, including reward accrual, transaction fee reductions, and privileged access to elite features. Agata Token is, in essence, the vital energy source for Agatech, integral to the seamless operation and comprehensive functionality of the entire ecosystem."
-      }
+      },
     "apis": {
       "coinMarketCap": "https://pro-api.coinmarketcap.com/v2/cryptocurrency/info?CMC_PRO_API_KEY=UNIFIED-CRYPTOASSET-INDEX&id=28592",
       "lifi": "https://li.quest/v1/token?chain=BSC&token=AGATA"
-      }
+      },
     "auditsAndKYC": {
       "cyberscope": "https://github.com/cyberscope-io/audits/blob/main/agata/audit.pdf",
       "checkdot": "https://audits.checkdot.io/Agata-Audit-CheckDot.pdf",
